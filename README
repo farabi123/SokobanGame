@@ -1,0 +1,12 @@
+Program functionality: 
+1. Upon running the program the inital level will load 
+2. The game is basically an array that holds elements of different class types:Wall, Box, StorageSpot, FreeSpaceWithPlayer that all extend class Space 
+and DeliveryPointWithPlayer,DeliveryPointWithBox classes that both extend StorageSpot class.
+3. Player(Blue Ball) is able to move around the board by clicking on the arrow pad boxes at the bottom of the screen: 
+-right hand box moves right
+-left hand box moves left
+-upper box moves up
+-lower box moves down 
+4. PLayer moves around the boxes to get them to their respective storage spots. 
+5. Upon level completetion the program will immediately upload the next level. 
+6. Once all 4 levels are complete white screen is loaded indicating the end of the game.
