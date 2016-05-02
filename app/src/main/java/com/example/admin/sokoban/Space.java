@@ -4,8 +4,8 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 
-/*Wall, Box, StorageSpot, FreeSpaceWithPlayer,DeliveryPointWithPlayer,
-DeliveryPointWithBox classes all extend Space class*/
+/*Wall, Box, StorageSpot, FreeSpaceWithPlayer extend Space class*/
+/*DeliveryPointWithPlayer and DeliveryPointWithBox classes extend StorageSpot that extends Space class*/
 public class Space {
     public int x, y;
     public Space(int x, int y) {
