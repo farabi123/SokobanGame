@@ -7,7 +7,6 @@ import android.graphics.Rect;
 
 public class FreeSpaceWithPlayer extends Space{
     int r;
-
     public FreeSpaceWithPlayer(int x, int y) {
         super(x, y);
         r = 45;
@@ -16,18 +15,12 @@ public class FreeSpaceWithPlayer extends Space{
     void draw(Canvas c)
     {
         Paint ball = new Paint();
-        ball.setColor(Color.RED);
+        ball.setColor(Color.BLUE);
         c.drawCircle(x+70, y+80, r, ball);
     }
-
-    boolean isFree() {
-        return false;
-    }
-    boolean isFreeSpaceWithPlayer(){
-        return true;
-    }
-
-
+    //These methods help determine the class type of an element in the game array
+    boolean isFree() {return false;}
+    boolean isFreeSpaceWithPlayer(){return true;}
 }
 
 
